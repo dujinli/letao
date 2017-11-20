@@ -1,0 +1,235 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-18 19:06:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-19 08:52:45
+*/
+
+/* 布局容器 */
+.box{
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+/* 顶栏样式 */
+.topbar{
+	width: 100%;
+	height: 44px;
+	background-color: #006699;
+	position: fixed;
+	z-index: 10;
+}
+/* 顶栏部分标题样式 */
+.topbar h2{
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 44px;
+	text-align: center;
+}
+/* 顶栏部分图片样式 */
+.topbar img{
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	right: 13px;
+	top: 9px;
+}
+/* 内容主体部分 */
+.main{
+	width: 100%;
+}
+/* 轮播图部分 */
+.main .product_pic{
+	width: 100%;
+}
+
+.main .product_pic ul{
+	width: 100%;
+}
+.main .product_pic li{
+	width: 100%;
+	height: 222px;
+}
+.main .product_pic li img{
+	height: 100%;
+	width: 100%;
+}
+/* 产品分类部分 */
+.product_menu{
+	width: 100%;
+}
+.product_menu ul{
+	width: 100%;
+	height: 212px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.product_menu ul li{
+	width: 33%;
+	height: 94px;
+	float: left;
+}
+.product_menu ul li img{
+	width: 100%;
+	height: 94px;
+}
+/* 广告部分 */
+.product_banner{
+	width: 100%;
+	height: 206px;
+	border-top: 1px solid #cccccc;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+.product_banner .left{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.product_banner .left .top_l ul{
+	width: 100%;
+	height: 94px;
+}
+
+.product_banner .left .bottom_l ul{
+	width: 100%;
+	height: 112px;
+}
+
+.product_banner .left li{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.product_banner .left li img{
+	width: 100%;
+	height: 100%;
+}
+.product_banner .right{
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+.product_banner .right img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 品牌专区部分 */
+.brand{
+	width: 100%;
+	height: 142px;
+	padding: 0px 10px;
+	margin-top: 3px;
+	box-sizing: border-box;
+}
+.brand .brand_title{
+	width: 100%;
+	/* height: 47px; */
+}
+.brand .brand_title img{
+	width: 100%;
+	/* height: 100%; */
+}
+.brand  .brand_icon ul{
+	width: 100%;
+	height: 95px;
+}
+.brand  .brand_icon ul li{
+	width: 25%;
+	height: 50%;
+	float: left;
+}
+.brand  .brand_icon ul li img{
+	width: 100%;
+	/* height: 100%; */		
+}
+
+/* 运动生活专区 */
+.sport{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.sport .sport_title{
+	width: 100%;
+	height: 47px;
+}
+.sport .sport_title img{
+	width: 100%;
+	/* height: 100%; */
+}
+.sport ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-top: 35px;
+}
+.sport ul li{
+	width: 49%;
+	/* height: 276px; */
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.sport ul li img{
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+.sport .sport_list li p{
+	font-size: 14px;
+	color: #8f8f94;
+	padding-left: 10px;
+	margin-bottom: 15px;
+}
+.sport .sport_list li span{
+	color: red;
+	padding-left: 17px;
+}
+.sport .sport_list li del{
+	font-size: 12px;
+	color: #ccc;
+	padding-left: 15px;
+}
+.sport .sport_list li div{
+	width: 80px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	background-color: #006699;
+	color: #fff;
+	margin: 10px auto;
+}
+/* 底栏样式 */
+.botbar{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #006699;
+}
+
+.botbar ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.botbar ul li{
+	flex: 1;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding-top:10px;
+	box-sizing: border-box; 
+}
+.botbar li p{
+	font-size: 12px;
+	color: #fff;
+}
